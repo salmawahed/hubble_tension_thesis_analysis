@@ -47,5 +47,13 @@ The analysis reproduces the published SH0ES 2022 result to within 0.04%, confirm
 │
 └── run_analysis.py                # single entry-point: runs everything
 ```
+## Quickstart
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/salmawahed/hubble_tension_thesis_analysis]
+cd hubble-tension-thesis-analysis
+```
+
 
 
