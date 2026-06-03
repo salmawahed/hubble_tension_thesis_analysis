@@ -95,7 +95,7 @@ python mcmc_corner.py
 python h0_comparison.py
 ```
  
-> **Note:** Step 3 (MCMC) takes 15–90 minutes depending on your machine.
+> **Note:** Step 3 (MCMC) takes 30–90 minutes depending on your machine.
 > All other steps run in under 5 minutes.
 
 ---
