@@ -32,8 +32,7 @@ The analysis reproduces the published SH0ES 2022 result to within 0.04%, confirm
 │   ├── model.py                   # flat ΛCDM luminosity distance
 │   ├── likelihood.py              # log-likelihood, log-prior, log-posterior
 │   ├── MLE.py                     # frequentist chi-squared minimisation
-│   ├── MCMC.py                  # emcee sampler + convergence diagnostics
-    ├──
+│   ├── MCMC.py                    # emcee sampler + convergence diagnostics
 │   └── plots.py                   # all figure generation functions
 │
 ├── data/
