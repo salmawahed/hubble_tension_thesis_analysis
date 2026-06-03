@@ -3,7 +3,7 @@
 **Graduation Thesis: *The Hubble Tension: Mathematical Foundations, Statistical Analysis, and Proposed Resolutions***
 
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
-[![Thesis Release](https://img.shields.io/badge/release-v1.0--thesis--submission-orange.svg)](https://github.com/salmawahed/hubble-tension-thesis-analysis/releases/tag/v1.0-thesis-submission)
+[![Thesis Release](https://img.shields.io/badge/release-v1.0--thesis--submission-orange.svg)](https://github.com/salmawahed/hubble_tension_thesis_analysis/releases/tag/v1.0-thesis-submission)
  
 ---
 
@@ -52,7 +52,7 @@ The analysis reproduces the published SH0ES 2022 result to within 0.04%, confirm
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/salmawahed/hubble_tension_thesis_analysis]
+git clone https://github.com/salmawahed/hubble_tension_thesis_analysis.git
 cd hubble-tension-thesis-analysis
 ```
 ### 2. Set up the environment
