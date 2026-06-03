@@ -3,7 +3,8 @@
 **Graduation Thesis: *The Hubble Tension: Mathematical Foundations, Statistical Analysis, and Proposed Resolutions***
 
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
-
+[![Thesis Release](https://img.shields.io/badge/release-v1.0--thesis--submission-orange.svg)](https://github.com/salmawahed/hubble-tension-thesis-analysis/releases/tag/v1.0-thesis-submission)
+ 
 ---
 
 ## Overview
