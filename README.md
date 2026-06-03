@@ -127,8 +127,8 @@ python h0_comparison.py
  
 | File | Description |
 |------|-------------|
-| `H0_1D_Posterior_fullcov.png` | 1D marginal posterior P(H₀\|D) with Planck tension arrow |
-| `H0_Om_2D_Posterior.png` | 2D joint posterior with 68% and 95% credible contours |
+| `1D_posterior.png` | 1D marginal posterior P(H₀\|D) with Planck tension arrow |
+| `2D_Posterior.png` | 2D joint posterior with 68% and 95% credible contours |
 | `MCMC_trace.png` | Trace plots for all 32 walkers, burn-in marked |
 | `MCMC_autocorr.png` | Autocorrelation function with 50τ verification |
 | `MCMC_corner.png` | Corner plot with 1D marginals and 2D joint posterior |
