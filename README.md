@@ -134,9 +134,9 @@ python h0_comparison.py
 
 | File | Description |
 |------|-------------|
-| `early_universe_h0.png` | Early-universe $H_0$ measurements (Planck 2018 variants) |
-| `late_universe_h0.png` | Late-universe $H_0$ measurements (SH0ES, H0LiCOW, CCHP, etc.) |
-| `combined_h0_tension_plot_final.png` | Full $H_0$ comparison: Early vs Late universe with tension summary |
+| `whisker_plot_early_universe.png` | Early-universe $H_0$ measurements (Planck 2018 variants) |
+| `whisker_plot_late_universe.png` | Late-universe $H_0$ measurements (SH0ES, H0LiCOW, CCHP, etc.) |
+| `whisker_plot_combined_tension.png` | Full $H_0$ comparison: Early vs Late universe with tension summary |
 | `1D_posterior.png` | 1D marginal posterior $P(H_0 \| \mathcal{D})$ with Planck tension arrow |
 | `2D_Posterior.png` | 2D joint posterior with 68% and 95% credible contours |
 | `MCMC_trace.png` | Trace plots for all 32 walkers, burn-in marked |
