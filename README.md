@@ -79,7 +79,7 @@ Download from: [https://github.com/PantheonPlusSH0ES/DataRelease](https://github
 # Step 1 — 1D marginal posterior for H₀ (grid method)
 python H0_posterior_cov.py
  
-# Step 2 — 2D joint posterior + Ωm marginalisation
+# Step 2 — 2D joint posterior + Ωm marginalization
 python H0_Om_2D_posterior.py
  
 # Step 3 — MCMC sampling (saves mcmc_chain.npy)
@@ -127,12 +127,22 @@ python h0_comparison.py
  
 | File | Description |
 |------|-------------|
-| `1D_posterior.png` | 1D marginal posterior P(H₀\|D) with Planck tension arrow |
+| `scale_factor_evolution.png` | Scale factor $a(t)$ evolution for matter-, radiation-, and Λ-dominated universes |
+| `density_evolution.png` | Energy density evolution: $\rho \propto a^{-3}$ (matter), $\rho \propto a^{-4}$ (radiation), $\rho = \text{const}$ (Λ) |
+
+### Chapter 4 — Statistical Analysis
+
+| File | Description |
+|------|-------------|
+| `early_universe_h0.png` | Early-universe $H_0$ measurements (Planck 2018 variants) |
+| `late_universe_h0.png` | Late-universe $H_0$ measurements (SH0ES, H0LiCOW, CCHP, etc.) |
+| `combined_h0_tension_plot_final.png` | Full $H_0$ comparison: Early vs Late universe with tension summary |
+| `1D_posterior.png` | 1D marginal posterior $P(H_0 \| \mathcal{D})$ with Planck tension arrow |
 | `2D_Posterior.png` | 2D joint posterior with 68% and 95% credible contours |
 | `MCMC_trace.png` | Trace plots for all 32 walkers, burn-in marked |
 | `MCMC_autocorr.png` | Autocorrelation function with 50τ verification |
 | `MCMC_corner.png` | Corner plot with 1D marginals and 2D joint posterior |
-| `H0_comparison.png` | H₀ comparison whisker plot (Early vs Late universe) |
+| `H0_comparison.png` | Final $H_0$ comparison whisker plot including this work |
  
 ---
  
@@ -245,6 +255,28 @@ np.save("mcmc_log_prob.npy", sampler.get_log_prob())
 ```
  
 ---
- 
+
+## Citation
+
+If you use this code, please cite:
+
+```bibtex
+@misc{hubble_tension_thesis_analysis,
+  author    = {Salma Wahed},
+  title     = {Hubble Tension: Mathematical Foundations, Statistical Analysis, and Proposed Resolutions},
+  year      = {2026},
+  publisher = {GitHub},
+  version   = {v1.0-thesis-submission},
+  url       = {https://github.com/salmawahed/hubble_tension_thesis_analysis}
+}
+```
+
+Please also cite the tools this work depends on:
+- **emcee:** Foreman-Mackey et al. (2013), PASP 125, 306
+- **corner.py:** Foreman-Mackey (2016), JOSS 1, 24
+- **NumPy:** Harris et al. (2020), Nature 585, 357
+- **SciPy:** Virtanen et al. (2020), Nature Methods 17, 261
+
+---
 
 
